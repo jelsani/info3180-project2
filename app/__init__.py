@@ -6,7 +6,7 @@ from flask_wtf.csrf import CSRFProtect
 app = Flask(__name__)
 csrf = CSRFProtect(app)
 app.config['SECRET_KEY'] = "secretkey"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://eimnxofbvorepj:952d68e415cb3b7b99fa2daa4cf8f53baa21b487f1f3f9136591f11de3fdd857@ec2-54-197-234-117.compute-1.amazonaws.com:5432/d600bhkqukpv3e"   #this is what will give acess to the database
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://fhsizcgawmcohp:f240afe37480d5b883831cc0d278751ac6694957f97bb2ffb0ebe8c61f49eac8@ec2-54-86-170-8.compute-1.amazonaws.com:5432/daq3blumsb2lna"   #this is what will give acess to the database
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True   #added just to suppress a warning 
 app.config['UPLOAD_FOLDER']="./app/static/uploads"   #profile pictures are stored here
 app.config['PHOTOS']="./app/static/photos"     #posted images are stored here
