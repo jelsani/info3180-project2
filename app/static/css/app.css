@@ -1,0 +1,158 @@
+body {
+    padding-top: 5rem;
+}
+
+#lgn h2{
+    font-size:18;
+    font-family:Times;
+    align-content:center;
+}
+
+#loginform label{
+    font-family: sans-serif;
+    font-size: 12;
+    font-weight: bold;
+    float: left;
+    width: 6em;
+    margin-right: 1em;
+    text-align: right; 
+}
+
+#loginform{
+    width: 480px;
+    font-family: sans-serif;
+    font-size: 16;
+    border: 5px outset white;
+    padding: 25px;
+    background-color: white;
+    align-content:left;
+}
+
+#rgr h2{
+    font-size:18;
+    font-family:Times;
+    align-content:center;
+    
+}
+
+#registerform{
+    width: 400px;
+    border: 4px outset white;
+    padding: 25px;
+    background-color: white;
+    font: Times;
+    font-size: 16;
+}
+
+#registerform label{
+    font-family: Arial;
+    font-size: 11;
+    font-weight:bold;
+    background-color:white;
+    align-content:left;
+}
+
+#registerform input{
+    width: 320px;
+}
+
+#expl .jumbotron{
+    width: 400px;
+    border: 2px outset white;
+    background-color:#fffdfc;
+    font-family: Arial;
+    font-size: 16;
+    align-content: center;
+    
+}
+
+#expl{
+    background-color:#fce8d7;
+    
+}
+
+#uname{
+    font-family: Times;
+    font-size: 14;
+    font-style: italic;
+    
+}
+
+.img-fluid{
+    width:500px;
+    align-content: center;
+    padding-left:15px;
+    
+}
+
+
+#caption{
+    font-family: Times;
+    font-size:16;
+    align-content: center;
+    
+}
+
+#postb{
+    background-color:grey;
+}
+
+#date{
+    float:right;
+    font-family: Times;
+    font-size:16;
+    
+}
+
+#likes{
+    float:left;
+    font-family: Times;
+    font-size:16;
+}
+
+#myprofile .jumbotron{
+    width: 980px;
+    background-color:#fffdfc;
+    font-family: Arial;
+    font-size: 16;
+    align-content: center;
+}
+
+#info h5{
+    font-family:Times;
+    font-size:19;
+    font-weight:bold;
+    font-style:italic;
+}
+
+#info{
+    padding-top: 5em;
+    align-content: justify;
+    float:left;
+    font-family: Times;
+    font-size:18;
+    
+}
+
+#aposts{
+    display:flex;
+    float:left;
+    border: 3px solid white;
+    padding-bottom:20px;
+    
+}
+
+
+#postform{
+    font-family: sans-serif;
+    font-size: 16;
+    font-weight:bold;
+    border: 5px outset white;
+    padding: 25px;
+    background-color: white;
+    
+}
+
+#postform button{
+    align-content:center;
+}

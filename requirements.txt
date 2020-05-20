@@ -1,0 +1,16 @@
+
+click
+Flask
+Flask-WTF
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+WTForms
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Script
+Flask-Login
+psycopg2
+
+gunicorn
